@@ -38,6 +38,12 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
 
 - A feature that allows local farmers to list and promote their fresh produce directly to potential buyers simply and securely.
 
+  <p align="right">
+  <a href="#table-of-contents" title="Back to top">
+    <img src="https://cdn-icons-png.flaticon.com/512/535/535234.png" width="24" alt="Back to top"/>
+  </a>
+</p>
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Functionality Requirements
