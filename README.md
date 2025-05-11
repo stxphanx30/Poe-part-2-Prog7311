@@ -69,10 +69,9 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
    - <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width="20" /> Microsoft.EntityFrameworkCore
 
 2. **Clone the App:**
-  <p>
-  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" />
-  <code>git clone https://github.com/YOUR-USERNAME/Agri-Energy-Connect.git</code>
-</p>
+  ```bash
+git clone https://github.com/YOUR-USERNAME/Agri-Energy-Connect.git
+```
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWI2NG8xMmxkZjc2eXowMjVlaWxqYjBqdTQyeW1zbGxpNXF5YWd1cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TlK63EA6F1qRb7lll6M/giphy.gif" width="400"/>
 
@@ -80,7 +79,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
    - Open the project in Visual Studio.
    - Restore NuGet packages.
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWMwMmtwcmc4ZHg0N3gzaWR5dzVnenZxMXRtNWN6ZTkweDdwa21qeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHHxxFAeLaYzS/giphy.gif"/>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWMwMmtwcmc4ZHg0N3gzaWR5dzVnenZxMXRtNWN6ZTkweDdwa21qeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHHxxFAeLaYzS/giphy.gif"  width="400"/>
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
