@@ -40,7 +40,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
 
   <p align="center">
   <a href="#table-of-contents" title="Back to top">
-    <img src="https://www.google.co.za/imgres?q=green%20farm%20arrow%20icon&imgurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Fcute-funny-green-arrow-icon_464314-3735.jpg&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fcute-funny-green-arrow-icon_36458664.htm&docid=HBKA2B0tiY0JaM&tbnid=rcRk0JUpoFf9aM&vet=12ahUKEwjy-vuX7ZqNAxUGUkEAHdXbAyYQM3oECDsQAA..i&w=626&h=626&hcb=2&ved=2ahUKEwjy-vuX7ZqNAxUGUkEAHdXbAyYQM3oECDsQAA" width="40" alt="Farm arrow up"/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB8sltDfs2k4I4C2rWExK4al1Zd7fqw8wUQ&s" width="40" alt="Farm arrow up"/>
   </a>
 </p>
 
