@@ -97,7 +97,7 @@ git clone https://github.com/stxphanx30/Poe-part-2-Prog7311.git
 ## Building and Running the Prototype
 
 1. Build in Visual Studio.
-2. Run the app or deploy to server.
+2. Run the app or deploy to the server.
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -105,17 +105,36 @@ git clone https://github.com/stxphanx30/Poe-part-2-Prog7311.git
 
 **Farmers:**
 - Register their produce with essential details.
-- Track and review their own product listings.
+- Track and review their product listings.
 
 **Employees:**
 - Onboard farmers and manage their profiles.
 - Browse and filter produce listings by various criteria.
 
-  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  ##  Roadmap
+
+Here's our roadmap for Agri-Energy Connect, with an overview of completed tasks and planned features.
+
+### Completed
+- [x] none
+
+
+### In Progress
+- [ ] Database schema design and integration.
+- [ ] User authentication system with role-based access control.
+- [ ] Basic CRUD functionality for farmers and employees.
+- [ ] Implementation of search and filtering functionality for products.
+- [ ] Implementation of Green Energy Marketplace.
+        
+### Planned
+- [ ] Under Review.
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Images
 
-### Teasers
+
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -128,7 +147,7 @@ git clone https://github.com/stxphanx30/Poe-part-2-Prog7311.git
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Technology Stack
 
-> Tools, languages used.
+> Tools and languages used.
 
 <table>
   <tr>
