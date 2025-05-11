@@ -120,7 +120,7 @@ git clone https://github.com/YOUR-USERNAME/Agri-Energy-Connect.git
 [![Watch the Demo](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/23b172e4-a4f5-4bd7-90fe-d4eba3a63e24)](https://youtu.be/anhSqbKigp8)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## 📈 Technology Stack
+## Technology Stack
 
 > Tools, languages used.
 
