@@ -137,7 +137,8 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
     </td>
   </tr>
 </table>
-## Get Started
+
+ ## Get Started
 
 To get started, go to [Installation and Setup](#installation-and-setup).
 
