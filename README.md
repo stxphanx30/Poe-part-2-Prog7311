@@ -4,7 +4,7 @@
 
 # Agri-Energy Connect
 
-**Agri-Energy Connect** is more than a platform,  it's a movement. Rooted in the South African landscape, it reimagines the future of farming by seamlessly blending agriculture with renewable energy. Built on a dynamic MVC architecture, it empowers farmers and innovators to collaborate, implement sustainable practices, and unlock the true potential of green technology. Agri-Energy Connect lights the path toward a smarter, cleaner, and more resilient agricultural future.
+**Agri-Energy Connect** is more than a platform, it's a movement. Rooted in the South African landscape, it reimagines the future of farming by seamlessly blending agriculture with renewable energy. Built on a dynamic MVC architecture, it empowers farmers and innovators to collaborate, implement sustainable practices, and unlock the true potential of green technology. Agri-Energy Connect lights the path toward a smarter, cleaner, and more resilient agricultural future.
 
 ## Table of Contents
 
@@ -26,17 +26,17 @@
 
 ## Introduction
 
-In response to the growing need for sustainable agricultural practices and the integration of green energy solutions in South Africa, the visionary initiative named "Agri-Energy Connect" has been conceptualized. This initiative aims to develop an innovative web platform that connects the agricultural sector with green energy technology providers. Key features of the platform include a Green Energy Marketplace and a platform for farmers to sell their products.
+Driven by the urgent demand for eco-friendly farming and the adoption of renewable energy in South Africa, the project known as "Agri Energy Connect" was created with a purpose. This platform is designed to unite the agricultural community with green technology providers through an intuitive and innovative web solution. Its core features include a digital marketplace for clean energy tools and a dedicated space for farmers to market their produce directly.. This initiative aims to develop an innovative web platform that connects the agricultural sector with green energy technology providers. Key features of the platform include a Green Energy Marketplace and a platform for farmers to sell their products.
 
 <img src="https://media.baamboozle.com/uploads/images/604865/1676058321_96119_gif-url.gif" />
 
-### Green Energy Marketplace
+### Clean Energy Market
 
-- A marketplace for green energy solutions tailored to agricultural needs, such as solar-powered irrigation systems, wind turbines for farms, and biogas energy solutions.
+- A digital hub where users can explore eco-friendly solutions made specifically for farms, including solar irrigation tools, wind-powered systems, and bioenergy technologies.
 
-### Farmer Product Selling Platform
+### Produce Exchange Zone
 
-- A platform where farmers can sell their products.
+- A feature that allows local farmers to list and promote their fresh produce directly to potential buyers in a simple and secure way.
 
 ## Functionality Requirements
 
@@ -91,11 +91,12 @@ In response to the growing need for sustainable agricultural practices and the i
 ## System Functionalities and User Roles
 
 **Farmers:**
-- Add/view their products.
+- Register their produce with essential details.
+- Track and review their own product listings.
 
 **Employees:**
-- Add new farmers.
-- View/filter farmer products.
+- Onboard farmers and manage their profiles.
+- Browse and filter produce listings by various criteria.
 
 ![gif](https://cdn.pixabay.com/animation/2023/06/29/06/23/06-23-06-393_512.gif)
 
@@ -177,4 +178,3 @@ We welcome contributions! To contribute:
 - StackOverflow (2017). *EmailJS Help*: https://stackoverflow.com/questions/58791656/send-email-directly-from-javascript-using-emailjs  
 - W3Schools (2024). *Fixed Sidebar*: https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp  
 - W3Schools (2024). *Date Input*: https://www.w3schools.com/TAGS/att_input_type_date.asp
-
