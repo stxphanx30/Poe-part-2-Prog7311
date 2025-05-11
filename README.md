@@ -168,28 +168,12 @@ git clone https://github.com/YOUR-USERNAME/Agri-Energy-Connect.git
 ### Teasers
 ![img1](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/a1a8c6bc-3b77-4ed1-ae35-63b3d2577bd1)
 
-<p align="center">
-  <a href="#table-of-contents" title="Back to top">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB8sltDfs2k4I4C2rWExK4al1Zd7fqw8wUQ&s" width="40" alt="Farm arrow up"/>
-  </a>
-</p>
-<p align="center">
-  <span style="color:green;"><strong>Back to top</strong></span>
-</p>
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Demo Video
 
 [![Watch the Demo](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/23b172e4-a4f5-4bd7-90fe-d4eba3a63e24)](https://youtu.be/anhSqbKigp8)
 
-<p align="center">
-  <a href="#table-of-contents" title="Back to top">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB8sltDfs2k4I4C2rWExK4al1Zd7fqw8wUQ&s" width="40" alt="Farm arrow up"/>
-  </a>
-</p>
-<p align="center">
-  <span style="color:green;"><strong>Back to top</strong></span>
-</p>
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Technology Stack
