@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6f91d2f6-6a1c-438d-8d9b-a0a622ae10d7" alt="Agri Connect Banner" />
 </p>
-# Agri-Energy Connect
+#Agri-Energy Connect
 
 Agri-Energy Connect is more than a platform, it's a movement. Rooted in the South African landscape, it reimagines the future of farming by seamlessly blending agriculture with renewable energy. Built on a dynamic MVC architecture, it empowers farmers and innovators to collaborate, implement sustainable practices, and unlock the true potential of green technology. Agri-Energy Connect leads toward a smarter, cleaner, and more resilient agricultural future by connecting growers with energy solutions.
 
