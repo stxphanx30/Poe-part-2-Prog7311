@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/6f91d2f6-6a1c-438d-8d9b-a0a622ae10d7" alt="Agri Connect Banner" />
 </p>
 
-# Agri-Energy Connect
+## Agri-Energy Connect
 
 **Agri-Energy Connect** is more than a platform, it's a movement. Rooted in the South African landscape, it reimagines the future of farming by seamlessly blending agriculture with renewable energy. Built on a dynamic MVC architecture, it empowers farmers and innovators to collaborate, implement sustainable practices, and unlock the true potential of green technology. Agri-Energy Connect lights the path toward a smarter, cleaner, and more resilient agricultural future.
 
@@ -83,7 +83,7 @@ git clone https://github.com/YOUR-USERNAME/Agri-Energy-Connect.git
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWMwMmtwcmc4ZHg0N3gzaWR5dzVnenZxMXRtNWN6ZTkweDdwa21qeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHHxxFAeLaYzS/giphy.gif"  width="400"/>
 
 <p align="center">
-  <a href="#table-of-contents" title="Back to top">
+  <a href="#Agri-Energy Connect" title="Back to top">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB8sltDfs2k4I4C2rWExK4al1Zd7fqw8wUQ&s" width="40" alt="Farm arrow up"/>
   </a>
 </p>
@@ -101,14 +101,6 @@ git clone https://github.com/YOUR-USERNAME/Agri-Energy-Connect.git
 4. Run database migrations.
 5. Build and run.
 
-   <p align="center">
-  <a href="#table-of-contents" title="Back to top">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB8sltDfs2k4I4C2rWExK4al1Zd7fqw8wUQ&s" width="40" alt="Farm arrow up"/>
-  </a>
-</p>
-<p align="center">
-  <span style="color:green;"><strong>Back to top</strong></span>
-</p>
    
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Building and Running the Prototype
@@ -116,14 +108,6 @@ git clone https://github.com/YOUR-USERNAME/Agri-Energy-Connect.git
 1. Build in Visual Studio.
 2. Run the app or deploy to server.
 
-   <p align="center">
-  <a href="#table-of-contents" title="Back to top">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB8sltDfs2k4I4C2rWExK4al1Zd7fqw8wUQ&s" width="40" alt="Farm arrow up"/>
-  </a>
-</p>
-<p align="center">
-  <span style="color:green;"><strong>Back to top</strong></span>
-</p>
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## System Functionalities and User Roles
@@ -136,14 +120,6 @@ git clone https://github.com/YOUR-USERNAME/Agri-Energy-Connect.git
 - Onboard farmers and manage their profiles.
 - Browse and filter produce listings by various criteria.
 
-  <p align="center">
-  <a href="#table-of-contents" title="Back to top">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB8sltDfs2k4I4C2rWExK4al1Zd7fqw8wUQ&s" width="40" alt="Farm arrow up"/>
-  </a>
-</p>
-<p align="center">
-  <span style="color:green;"><strong>Back to top</strong></span>
-</p>
   
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Images
@@ -189,15 +165,6 @@ git clone https://github.com/YOUR-USERNAME/Agri-Energy-Connect.git
   </tr>
 </table>
 
-<p align="center">
-  <a href="#table-of-contents" title="Back to top">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB8sltDfs2k4I4C2rWExK4al1Zd7fqw8wUQ&s" width="40" alt="Farm arrow up"/>
-  </a>
-</p>
-<p align="center">
-  <span style="color:green;"><strong>Back to top</strong></span>
-</p>
-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  ## Get Started
@@ -215,7 +182,7 @@ To get started, go to [Installation and Setup](#installation-and-setup).
 - W3Schools (2024). *Date Input*: https://www.w3schools.com/TAGS/att_input_type_date.asp
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <p align="center">
-  <a href="#table-of-contents" title="Back to top">
+  <a href="#Agri-Energy Connect" title="Back to top">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB8sltDfs2k4I4C2rWExK4al1Zd7fqw8wUQ&s" width="40" alt="Farm arrow up"/>
   </a>
 </p>
