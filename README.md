@@ -82,14 +82,6 @@ git clone https://github.com/YOUR-USERNAME/Agri-Energy-Connect.git
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWMwMmtwcmc4ZHg0N3gzaWR5dzVnenZxMXRtNWN6ZTkweDdwa21qeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHHxxFAeLaYzS/giphy.gif"  width="400"/>
 
-<p align="center">
-  <a href="#Agri-Energy Connect" title="Back to top">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB8sltDfs2k4I4C2rWExK4al1Zd7fqw8wUQ&s" width="40" alt="Farm arrow up"/>
-  </a>
-</p>
-<p align="center">
-  <span style="color:green;"><strong>Back to top</strong></span>
-</p>
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -182,7 +174,7 @@ To get started, go to [Installation and Setup](#installation-and-setup).
 - W3Schools (2024). *Date Input*: https://www.w3schools.com/TAGS/att_input_type_date.asp
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <p align="center">
-  <a href="#Agri-Energy Connect" title="Back to top">
+  <a href="## Agri-Energy Connect" title="Back to top">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB8sltDfs2k4I4C2rWExK4al1Zd7fqw8wUQ&s" width="40" alt="Farm arrow up"/>
   </a>
 </p>
