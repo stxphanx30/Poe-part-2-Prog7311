@@ -38,15 +38,6 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
 
 - A feature that allows local farmers to list and promote their fresh produce directly to potential buyers simply and securely.
 
-  <p align="center">
-  <a href="#table-of-contents" title="Back to top">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB8sltDfs2k4I4C2rWExK4al1Zd7fqw8wUQ&s" width="40" alt="Farm arrow up"/>
-  </a>
-</p>
-<p align="center">
-  <span style="color:green;"><strong>Back to top</strong></span>
-</p>
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Functionality Requirements
@@ -68,15 +59,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
      - Add farmer profiles.
      - View/filter products by date range and type.
 
-     <p align="center">
-  <a href="#table-of-contents" title="Back to top">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB8sltDfs2k4I4C2rWExK4al1Zd7fqw8wUQ&s" width="40" alt="Farm arrow up"/>
-  </a>
-</p>
-<p align="center">
-  <span style="color:green;"><strong>Back to top</strong></span>
-</p>
-
+  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Setup Instructions
