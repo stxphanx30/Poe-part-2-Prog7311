@@ -5,6 +5,7 @@
 # Agri-Energy Connect
 
 **Agri-Energy Connect** is more than a platform, it's a movement. Rooted in the South African landscape, it reimagines the future of farming by seamlessly blending agriculture with renewable energy. Built on a dynamic MVC architecture, it empowers farmers and innovators to collaborate, implement sustainable practices, and unlock the true potential of green technology. Agri-Energy Connect lights the path toward a smarter, cleaner, and more resilient agricultural future.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Table of Contents
 
@@ -22,7 +23,7 @@
 12. [Contributing](#contributing)
 13. [Reference List](#reference-list)
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Introduction
 
@@ -36,7 +37,8 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
 
 ### Produce Exchange Zone
 
-- A feature that allows local farmers to list and promote their fresh produce directly to potential buyers in a simple and secure way.
+- A feature that allows local farmers to list and promote their fresh produce directly to potential buyers simply and securely.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Functionality Requirements
 
@@ -56,6 +58,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
    - **Employees:**
      - Add farmer profiles.
      - View/filter products by date range and type.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Setup Instructions
 
@@ -75,6 +78,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
    - Restore NuGet packages.
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWMwMmtwcmc4ZHg0N3gzaWR5dzVnenZxMXRtNWN6ZTkweDdwa21qeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHHxxFAeLaYzS/giphy.gif"/>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Installation and Setup
 
@@ -83,12 +87,12 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
 3. Update `appsettings.json` with your DB string.
 4. Run database migrations.
 5. Build and run.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Building and Running the Prototype
 
 1. Build in Visual Studio.
 2. Run the app or deploy to server.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## System Functionalities and User Roles
 
 **Farmers:**
@@ -99,17 +103,17 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
 - Onboard farmers and manage their profiles.
 - Browse and filter produce listings by various criteria.
   
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Images
 
 ### Teasers
 ![img1](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/a1a8c6bc-3b77-4ed1-ae35-63b3d2577bd1)
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Demo Video
 
 [![Watch the Demo](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/23b172e4-a4f5-4bd7-90fe-d4eba3a63e24)](https://youtu.be/anhSqbKigp8)
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Technology Stack
 > Tools, languages used.
 <table>
@@ -137,11 +141,11 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
     </td>
   </tr>
 </table>
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  ## Get Started
 
 To get started, go to [Installation and Setup](#installation-and-setup).
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Reference List
 
 - Bootswatch. *Minty* theme: https://bootswatch.com/minty/  
@@ -150,3 +154,4 @@ To get started, go to [Installation and Setup](#installation-and-setup).
 - StackOverflow (2017). *EmailJS Help*: https://stackoverflow.com/questions/58791656/send-email-directly-from-javascript-using-emailjs  
 - W3Schools (2024). *Fixed Sidebar*: https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp  
 - W3Schools (2024). *Date Input*: https://www.w3schools.com/TAGS/att_input_type_date.asp
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
