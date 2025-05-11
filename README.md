@@ -24,7 +24,7 @@
 
 ---
 
-# 🟢 Introduction
+## Introduction
 
 In response to the growing need for sustainable agricultural practices and the integration of green energy solutions in South Africa, the visionary initiative named "Agri-Energy Connect" has been conceptualized. This initiative aims to develop an innovative web platform that connects the agricultural sector with green energy technology providers. Key features of the platform include a Green Energy Marketplace and a platform for farmers to sell their products.
 
@@ -38,7 +38,7 @@ In response to the growing need for sustainable agricultural practices and the i
 
 - A platform where farmers can sell their products.
 
-## 🟠 Functionality Requirements
+## Functionality Requirements
 
 1. **Database Development and Integration:**
    - Design and integrate a relational database to manage information about farmers and their products.
@@ -57,7 +57,7 @@ In response to the growing need for sustainable agricultural practices and the i
      - Add farmer profiles.
      - View/filter products by date range and type.
 
-## 🟢 Setup Instructions
+## Setup Instructions
 
 1. **Tools Required:**
    - Visual Studio (latest)
@@ -75,7 +75,7 @@ In response to the growing need for sustainable agricultural practices and the i
 
 <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aa9d2b73-a2e7-4148-b638-2b258ffe7644/dfulzfg-1f018aa1-8021-4fc7-9032-710dd7953e43.gif"/>
 
-## 🟠 Installation and Setup
+## Installation and Setup
 
 1. Navigate to the project root.
 2. Run dependency restore.
@@ -99,7 +99,7 @@ In response to the growing need for sustainable agricultural practices and the i
 
 ![gif](https://cdn.pixabay.com/animation/2023/06/29/06/23/06-23-06-393_512.gif)
 
-## 🟢 Roadmap
+## Roadmap
 
 ### Completed
 - [x] DB schema and integration
@@ -116,7 +116,7 @@ In response to the growing need for sustainable agricultural practices and the i
 - [ ] Weather API
 - [ ] Analytics dashboard
 
-## 🟢 Images
+## Images
 
 ### Teasers
 ![img1](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/a1a8c6bc-3b77-4ed1-ae35-63b3d2577bd1)
@@ -130,7 +130,7 @@ In response to the growing need for sustainable agricultural practices and the i
 
 [![Watch the Demo](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/23b172e4-a4f5-4bd7-90fe-d4eba3a63e24)](https://youtu.be/anhSqbKigp8)
 
-## 📈 Technology Stack
+## Technology Stack
 
 <table>
   <tr>
@@ -158,7 +158,7 @@ In response to the growing need for sustainable agricultural practices and the i
 
 To get started, go to [Installation and Setup](#installation-and-setup).
 
-## 🟠 Contributing
+## Contributing
 
 We welcome contributions! To contribute:
 1. Fork the repo
@@ -169,7 +169,7 @@ We welcome contributions! To contribute:
 
 <img src="https://media.tenor.com/u4RZrIbwcwEAAAAj/pokemon-miltank.gif" />
 
-## 🟢 Reference List
+## Reference List
 
 - Bootswatch. *Minty* theme: https://bootswatch.com/minty/  
 - Dindi, S. (2023). *Hidden Search Bar Tutorial*: https://www.makeuseof.com/search-bar-html-css-javascript/  
