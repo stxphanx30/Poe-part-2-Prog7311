@@ -130,7 +130,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
       <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width="48" height="48" alt="JavaScript"/><br/>JavaScript
     </td>
     <td align="center">
-      <img src="https://cdn.iconscout.com/icon/free/png-256/visualstudio-1-1178136.png" width="48" height="48" alt="Visual Studio"/><br/>Visual Studio 2022
+      <img src="https://visualstudio.microsoft.com/wp-content/uploads/2021/10/Product-Icon.svg" width="48" height="48" alt="Visual Studio"/><br/>Visual Studio 2022
     </td>
     <td align="center">
       <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" width="48" height="48" alt="Google"/><br/>Google
