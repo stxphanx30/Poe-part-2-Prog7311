@@ -120,29 +120,31 @@ git clone https://github.com/YOUR-USERNAME/Agri-Energy-Connect.git
 [![Watch the Demo](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/23b172e4-a4f5-4bd7-90fe-d4eba3a63e24)](https://youtu.be/anhSqbKigp8)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Technology Stack
+## 📈 Technology Stack
+
 > Tools, languages used.
+
 <table>
   <tr>
-    <td align="center">
+    <td align="center" width="120">
       <img src="https://cdn.worldvectorlogo.com/logos/c--4.svg" width="48" height="48" alt="C#"/><br/>C#
     </td>
-    <td align="center">
+    <td align="center" width="120">
       <img src="https://cdn-icons-png.flaticon.com/512/2772/2772128.png" width="48" height="48" alt="SQL Server"/><br/>SQL
     </td>
-    <td align="center">
+    <td align="center" width="120">
       <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" width="48" height="48" alt="HTML"/><br/>HTML
     </td>
-    <td align="center">
+    <td align="center" width="120">
       <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" width="48" height="48" alt="CSS"/><br/>CSS
     </td>
-    <td align="center">
+    <td align="center" width="120">
       <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width="48" height="48" alt="JavaScript"/><br/>JavaScript
     </td>
-    <td align="center">
+    <td align="center" width="120">
       <img src="https://visualstudio.microsoft.com/wp-content/uploads/2021/10/Product-Icon.svg" width="48" height="48" alt="Visual Studio"/><br/>Visual Studio 2022
     </td>
-    <td align="center">
+    <td align="center" width="120">
       <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" width="48" height="48" alt="Google"/><br/>Google
     </td>
   </tr>
