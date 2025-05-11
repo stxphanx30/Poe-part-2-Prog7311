@@ -74,7 +74,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
    - Open the project in Visual Studio.
    - Restore NuGet packages.
 
-<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aa9d2b73-a2e7-4148-b638-2b258ffe7644/dfulzfg-1f018aa1-8021-4fc7-9032-710dd7953e43.gif"/>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWMwMmtwcmc4ZHg0N3gzaWR5dzVnenZxMXRtNWN6ZTkweDdwa21qeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHHxxFAeLaYzS/giphy.gif"/>
 
 ## Installation and Setup
 
