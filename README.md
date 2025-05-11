@@ -30,8 +30,6 @@
 
 Driven by the urgent demand for eco-friendly farming and the adoption of renewable energy in South Africa, the project known as "Agri Energy Connect" was created with a purpose. This platform is designed to unite the agricultural community with green technology providers through an intuitive and innovative web solution. Its core features include a digital marketplace for clean energy tools and a dedicated space for farmers to market their produce directly.. This initiative aims to develop an innovative web platform that connects the agricultural sector with green energy technology providers. Key features of the platform include a Green Energy Marketplace and a platform for farmers to sell their products.
 
-<img src="https://media.baamboozle.com/uploads/images/604865/1676058321_96119_gif-url.gif" />
-
 ### Clean Energy Market
 
 - A digital hub where users can explore eco-friendly solutions made specifically for farms, including solar irrigation tools, wind-powered systems, and bioenergy technologies.
@@ -75,7 +73,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
    ```bash
     git clone https://github.com/stxphanx30/Poe-part-2-Prog7311.git
    ```
-   <img src=https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWI2NG8xMmxkZjc2eXowMjVlaWxqYjBqdTQyeW1zbGxpNXF5YWd1cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TlK63EA6F1qRb7lll6M/giphy.gif/>
+   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWI2NG8xMmxkZjc2eXowMjVlaWxqYjBqdTQyeW1zbGxpNXF5YWd1cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TlK63EA6F1qRb7lll6M/giphy.gif"/>
 
 4. **Dependencies:**
    - Open the project in Visual Studio.
