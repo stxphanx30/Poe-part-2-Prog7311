@@ -5,6 +5,7 @@
 # Agri-Energy Connect
 
 **Agri-Energy Connect** is more than a platform, it's a movement. Rooted in the South African landscape, it reimagines the future of farming by seamlessly blending agriculture with renewable energy. Built on a dynamic MVC architecture, it empowers farmers and innovators to collaborate, implement sustainable practices, and unlock the true potential of green technology. Agri-Energy Connect lights the path toward a smarter, cleaner, and more resilient agricultural future.
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Table of Contents
@@ -38,6 +39,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
 ### Produce Exchange Zone
 
 - A feature that allows local farmers to list and promote their fresh produce directly to potential buyers simply and securely.
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Functionality Requirements
@@ -58,6 +60,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
    - **Employees:**
      - Add farmer profiles.
      - View/filter products by date range and type.
+     
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Setup Instructions
@@ -78,6 +81,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
    - Restore NuGet packages.
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWMwMmtwcmc4ZHg0N3gzaWR5dzVnenZxMXRtNWN6ZTkweDdwa21qeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHHxxFAeLaYzS/giphy.gif"/>
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Installation and Setup
@@ -87,11 +91,13 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
 3. Update `appsettings.json` with your DB string.
 4. Run database migrations.
 5. Build and run.
+   
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Building and Running the Prototype
 
 1. Build in Visual Studio.
 2. Run the app or deploy to server.
+   
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## System Functionalities and User Roles
 
@@ -113,6 +119,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
 ## Demo Video
 
 [![Watch the Demo](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/23b172e4-a4f5-4bd7-90fe-d4eba3a63e24)](https://youtu.be/anhSqbKigp8)
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Technology Stack
 > Tools, languages used.
@@ -142,9 +149,11 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
   </tr>
 </table>
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
  ## Get Started
 
 To get started, go to [Installation and Setup](#installation-and-setup).
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Reference List
 
