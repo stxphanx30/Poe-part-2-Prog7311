@@ -66,7 +66,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
 
 2. **Clone the App:**
    ```bash
-   git clone https://github.com/YOUR-USERNAME/Agri-Energy-Connect.git
+   git clone https://github.com/stxphanx30/Poe-part-2-Prog7311.git
    ```
 
 3. **Dependencies:**
