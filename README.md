@@ -60,9 +60,9 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
 ## Setup Instructions
 
 1. **Tools Required:**
-   - Visual Studio (latest)
-   - .NET Framework
-   - Microsoft.EntityFrameworkCore
+   - <img src="https://visualstudio.microsoft.com/wp-content/uploads/2021/10/Product-Icon.svg" width="20" /> Visual Studio 2022
+   - <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width="20" /> .NET Framework
+   - <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width="20" /> Microsoft.EntityFrameworkCore
 
 2. **Clone the App:**
    
