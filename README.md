@@ -70,7 +70,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
 
 2. **Clone the App:**
   ```bash
-git clone https://github.com/YOUR-USERNAME/Agri-Energy-Connect.git
+git clone https://github.com/stxphanx30/Poe-part-2-Prog7311.git
 ```
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWI2NG8xMmxkZjc2eXowMjVlaWxqYjBqdTQyeW1zbGxpNXF5YWd1cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TlK63EA6F1qRb7lll6M/giphy.gif" width="400"/>
@@ -116,12 +116,12 @@ git clone https://github.com/YOUR-USERNAME/Agri-Energy-Connect.git
 ## Images
 
 ### Teasers
-![img1](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/a1a8c6bc-3b77-4ed1-ae35-63b3d2577bd1)
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Demo Video
 
-[![Watch the Demo](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/23b172e4-a4f5-4bd7-90fe-d4eba3a63e24)](https://youtu.be/anhSqbKigp8)
+
 
 
 
