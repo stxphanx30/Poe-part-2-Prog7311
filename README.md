@@ -137,23 +137,9 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
     </td>
   </tr>
 </table>
-
-<img src="https://cdn.pixabay.com/animation/2023/08/21/15/08/15-08-12-734_512.gif" />
-
 ## Get Started
 
 To get started, go to [Installation and Setup](#installation-and-setup).
-
-## Contributing
-
-We welcome contributions! To contribute:
-1. Fork the repo
-2. Create a new branch
-3. Commit your changes
-4. Push your branch
-5. Submit a pull request
-
-<img src="https://media.tenor.com/u4RZrIbwcwEAAAAj/pokemon-miltank.gif" />
 
 ## Reference List
 
