@@ -69,10 +69,12 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
    - <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width="20" /> Microsoft.EntityFrameworkCore
 
 2. **Clone the App:**
-   <p>
+  <p>
   <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" />
   <code>git clone https://github.com/YOUR-USERNAME/Agri-Energy-Connect.git</code>
 </p>
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWI2NG8xMmxkZjc2eXowMjVlaWxqYjBqdTQyeW1zbGxpNXF5YWd1cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TlK63EA6F1qRb7lll6M/giphy.gif" width="400"/>
 
 4. **Dependencies:**
    - Open the project in Visual Studio.
