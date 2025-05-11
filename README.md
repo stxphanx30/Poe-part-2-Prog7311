@@ -174,7 +174,7 @@ To get started, go to [Installation and Setup](#installation-and-setup).
 - W3Schools (2024). *Date Input*: https://www.w3schools.com/TAGS/att_input_type_date.asp
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <p align="center">
-  <a href="#agri-energy-connect" title="Back to top">
+  <a href="#Agri-Energy-Connect" title="Back to top">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB8sltDfs2k4I4C2rWExK4al1Zd7fqw8wUQ&s" width="40" alt="Farm arrow up"/>
   </a>
 </p>
