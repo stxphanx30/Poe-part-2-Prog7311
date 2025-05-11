@@ -40,7 +40,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
 
   <p align="center">
   <a href="#table-of-contents" title="Back to top">
-    <img src="https://cdn-icons-png.flaticon.com/512/8034/8034513.png" width="40" alt="Back to top"/>
+    <img src="https://cdn-icons-png.flaticon.com/512/5900/5900205.png" width="40" alt="Farm arrow up"/>
   </a>
 </p>
 
