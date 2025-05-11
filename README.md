@@ -65,11 +65,12 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
    - Microsoft.EntityFrameworkCore
 
 2. **Clone the App:**
+   git clone
    ```bash
-   git clone https://github.com/stxphanx30/Poe-part-2-Prog7311.git
+    https://github.com/stxphanx30/Poe-part-2-Prog7311.git
    ```
 
-3. **Dependencies:**
+4. **Dependencies:**
    - Open the project in Visual Studio.
    - Restore NuGet packages.
 
