@@ -98,35 +98,13 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
 **Employees:**
 - Onboard farmers and manage their profiles.
 - Browse and filter produce listings by various criteria.
-
-![gif](https://cdn.pixabay.com/animation/2023/06/29/06/23/06-23-06-393_512.gif)
-
-## Roadmap
-
-### Completed
-- [x] DB schema and integration
-- [x] Auth system with roles
-- [x] CRUD for users
-- [x] Marketplace feature
-- [x] Search/filtering
-
-### In Progress
-- [ ] Payment gateway
-
-### Planned
-- [ ] UI improvements
-- [ ] Weather API
-- [ ] Analytics dashboard
+  
 
 ## Images
 
 ### Teasers
 ![img1](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/a1a8c6bc-3b77-4ed1-ae35-63b3d2577bd1)
-![img2](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/f0a20c23-ae14-4f83-8425-1fd4b2ed9b3d)
-![img3](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/11d15d28-a35e-4f62-a10f-a0fc2f47ed1d)
-![img4](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/44061aae-a047-40e1-826c-53a715f8ecdc)
-![img5](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/38560584-a169-405f-955b-99b015f0dc93)
-![img6](https://github.com/VCDN-2024/prog7311-part-2-Leighche/assets/104209100/7c36fc5d-b873-493e-bbe5-a6f04de9633c)
+
 
 ## Demo Video
 
