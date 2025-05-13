@@ -1,0 +1,38 @@
+﻿@{
+    Layout = null;
+}
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="~/css/Login.css" />
+</head>
+<body style="
+    background-image: url('https://images.unsplash.com/photo-1671308819531-1097d5ab5dcc?w=1600&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2xpZGVyJTIwZmFybSUyMGVuZXJneXxlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+">
+    <div>
+        <div class="back-button">
+            <a asp-controller="Home" asp-action="Index" class="back-arrow">←</a>
+        </div>
+
+        <div class="login-form">
+            <h2>Login</h2>
+            <form method="post" asp-action="Login">
+                <input type="email" placeholder="Email Address" required />
+                <input type="password" placeholder="Password" required />
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</body>

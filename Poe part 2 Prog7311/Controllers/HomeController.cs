@@ -17,8 +17,7 @@ namespace Poe_part_2_Prog7311.Controllers
         {
             return View();
         }
-
-        public IActionResult Privacy()
+        public IActionResult Contact()
         {
             return View();
         }
