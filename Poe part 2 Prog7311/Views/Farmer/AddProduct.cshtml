@@ -1,5 +1,146 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model Poe_part_2_Prog7311.Models.Product
 @{
+    Layout = null;
 }
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Add Product</title>
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <style>
+        body {
+            background-image: url('https://plus.unsplash.com/premium_photo-1667509309170-e3ab070da027?w=1600&auto=format&fit=crop&q=60');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .form-container {
+            background-color: rgba(52, 173, 84, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            width: 400px;
+            color: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            border: 2px solid white;
+        }
+
+            .form-container h2 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: white;
+            }
+
+            .form-container label {
+                color: white;
+                margin-bottom: 5px;
+            }
+
+            .form-container input,
+            .form-container select {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: none;
+                border-radius: 8px;
+                font-size: 14px;
+                background-color: white;
+                color: black;
+            }
+
+                .form-container input::placeholder {
+                    color: gray;
+                }
+
+            .form-container button {
+                width: 100%;
+                background-color: orange;
+                color: white;
+                border: none;
+                padding: 12px;
+                font-size: 16px;
+                border-radius: 8px;
+                cursor: pointer;
+            }
+
+                .form-container button:hover {
+                    background-color: darkorange;
+                }
+
+        .cancel-button {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: white;
+            text-decoration: underline;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .back-arrow {
+            background-color: orange;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="back-button">
+        <a asp-controller="Farmer" asp-action="MyProducts" class="back-arrow">←</a>
+    </div>
+
+    <div class="form-container">
+        <h2>Add Product</h2>
+
+        <form asp-controller="Farmer" asp-action="AddProduct" method="post" enctype="multipart/form-data">
+            <input type="hidden" asp-for="FarmerId" />
+            <label for="Name">Product Name</label>
+            <input asp-for="Name" placeholder="Enter name" required />
+
+            <label for="Category">Category</label>
+            <select asp-for="Category" required>
+                <option value="">-- Select Category --</option>
+                <option>Vegetables</option>
+                <option>Fruits</option>
+                <option>Dairy</option>
+                <option>Grains</option>
+                <option>Herbs</option>
+                <option>Livestock</option>
+                <option>Other</option>
+            </select>
+
+            <label for="ProductionDate">Production Date</label>
+            <input asp-for="ProductionDate" type="date" />
+
+            <label for="imageFile">Product Image</label>
+            <input type="file" name="imageFile" />
+
+            <button type="submit">Add Product</button>
+            <a asp-controller="Farmer" asp-action="MyProducts" class="cancel-button">Cancel</a>
+        </form>
+    </div>
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div style="color: red; background-color: white; padding: 10px; border-radius: 5px; margin-bottom: 10px;">
+            There was a problem saving the product. Please check all fields.
+        </div>
+    
+    }
+</body>
+</html>

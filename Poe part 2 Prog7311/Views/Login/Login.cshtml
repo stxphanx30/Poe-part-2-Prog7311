@@ -3,12 +3,18 @@
 }
 
 
+<@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="~/css/Login.css" />
-</head>
-<body style="
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <style>
+body {
     background-image: url('https://images.unsplash.com/photo-1671308819531-1097d5ab5dcc?w=1600&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2xpZGVyJTIwZmFybSUyMGVuZXJneXxlbnwwfHwwfHx8MA%3D%3D');
     background-size: cover;
     background-position: center;
@@ -20,19 +26,83 @@
     align-items: center;
     justify-content: center;
     position: relative;
-">
-    <div>
-        <div class="back-button">
-            <a asp-controller="Home" asp-action="Index" class="back-arrow">←</a>
-        </div>
+    font-family: 'Segoe UI', sans-serif;
+}
 
-        <div class="login-form">
-            <h2>Login</h2>
-            <form method="post" asp-action="Login">
-                <input type="email" placeholder="Email Address" required />
-                <input type="password" placeholder="Password" required />
-                <button type="submit">Login</button>
-            </form>
-        </div>
+.login-form {
+    background-color: rgba(52, 173, 84, 0.95);
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+    color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border: 2px solid white;
+}
+
+    .login-form h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    .login-form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        background-color: white;
+        color: black;
+    }
+
+        .login-form input::placeholder {
+            color: gray;
+        }
+
+    .login-form button {
+        width: 100%;
+        background-color: orange;
+        color: white;
+        border: none;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+        .login-form button:hover {
+            background-color: darkorange;
+        }
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.back-arrow {
+    background-color: orange;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+    <div class="back-button">
+        <a asp-controller="Home" asp-action="Index" class="back-arrow">←</a>
+    </div>
+
+    <div class="login-form">
+        <h2>Login</h2>
+        <form method="post" asp-controller="Login" asp-action="Login">
+            <input type="email" name="email" placeholder="Email Address" required />
+            <input type="password" name="password" placeholder="Password" required />
+            <button type="submit">Login</button>
+        </form>
     </div>
 </body>
+</html>
