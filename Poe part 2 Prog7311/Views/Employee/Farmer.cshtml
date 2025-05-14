@@ -1,5 +1,126 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model IEnumerable<Poe_part_2_Prog7311.Models.AppUser>
+
 @{
+    Layout = null;
 }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Farmers</title>
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <style>
+        body {
+            background-image: url('https://images.unsplash.com/photo-1527847263472-aa5338d178b8?w=1600&auto=format&fit=crop&q=80');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 40px;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+     
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .farmer-card {
+            background-color: rgba(255,255,255,0.95);
+            border: 2px solid green;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            width: 300px;
+            overflow: hidden;
+        }
+
+            .farmer-card img {
+                width: 100%;
+                height: 220px;
+                object-fit: cover;
+                border-bottom: 2px solid green;
+            }
+
+        .farmer-details {
+            padding: 15px;
+        }
+
+            .farmer-details h5 {
+                color: #2e7d32;
+                margin-bottom: 10px;
+            }
+
+            .farmer-details p {
+                margin: 5px 0;
+                font-size: 14px;
+            }
+
+        .btn-group {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 15px 15px;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .back-arrow {
+            background-color: orange;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .add-button-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+            .add-button-container a {
+                background-color: orange;
+                color: white;
+                padding: 12px 25px;
+                border-radius: 10px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+                .add-button-container a:hover {
+                    background-color: darkorange;
+                }
+    </style>
+</head>
+<body>
+    <!-- Back button -->
+    <div class="back-button"> <a asp-controller="Employee" asp-action="EmployeeHome" class="back-arrow">←</a> </div>
+    <h2 class="text-center mb-4 text-white">Farmers</h2>
+
+    <div class="card-container">
+        @foreach (var farmer in Model)
+        {
+            <div class="farmer-card">
+                <img src="@(string.IsNullOrWhiteSpace(farmer.PassportPhotoPath) ? "/img/DefaultUser.png" : farmer.PassportPhotoPath)" alt="Passport Photo" />
+                <div class="farmer-details">
+                    <h5>@(string.IsNullOrWhiteSpace(farmer.FullName) ? "❌ Not provided" : farmer.FullName)</h5>
+                    <p><strong>Email:</strong> @(string.IsNullOrWhiteSpace(farmer.Email) ? "❌ Not provided" : farmer.Email)</p>
+                    <p><strong>Phone:</strong> @(string.IsNullOrWhiteSpace(farmer.PhoneNumber) ? "❌ Not provided" : farmer.PhoneNumber)</p>
+                    <p><strong>ID Number:</strong> @(string.IsNullOrWhiteSpace(farmer.IDNumber) ? "❌ Not provided" : farmer.IDNumber)</p>
+                    <p><strong>Address:</strong> @(string.IsNullOrWhiteSpace(farmer.Address) ? "❌ Not provided" : farmer.Address)</p>
+                </div>              
+            </div>
+        }
+    </div>
+
+    <div class="add-button-container">
+        <a asp-action="AddFarmer" class="btn btn-primary">+ Add Farmer</a>
+    </div>
+</body>
+</html>

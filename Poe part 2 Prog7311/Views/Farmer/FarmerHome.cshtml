@@ -54,7 +54,7 @@
                     {
                         var user = await UserManager.GetUserAsync(User);
                         <div class="user-profile micro" style="color: green;">
-                            Hi, @user.Email |
+                            Hi, @(!string.IsNullOrEmpty(user.FullName) ? user.FullName : (!string.IsNullOrEmpty(user.Email) ? user.Email : user.UserName)) |
                             <a asp-controller="Login" asp-action="Logout" style="color: orange; text-decoration: none;">Logout</a>
                         </div>
                     }
