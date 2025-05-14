@@ -18,7 +18,7 @@ public static class DbInitializer
                 await roleManager.CreateAsync(new IdentityRole(role));
         }
 
-        // 🔹 Farmer
+        // Farmer
         string farmerEmail = "farmer1@agrienergy.com";
         string farmerPassword = "Farmer@123";
 
@@ -78,7 +78,7 @@ public static class DbInitializer
                 await userManager.AddToRoleAsync(farmerUser, "Farmer");
         }
 
-        // 🔹 Employee
+        //  Employee
         string employeeEmail = "employee1@agrienergy.com";
         string employeePassword = "Employee@123";
 
@@ -145,10 +145,10 @@ public static class DbInitializer
 
         await context.Database.EnsureCreatedAsync();
 
-        // Check si produits déjà ajoutés
+        // Check if product has been added
         if (context.Products.Any()) return;
 
-        // On récupère le fermier existant
+        // fetching the existing farmer
         var farmer = await userManager.FindByEmailAsync("farmer1@agrienergy.com");
 
         if (farmer == null)
@@ -157,7 +157,7 @@ public static class DbInitializer
             return;
         }
 
-        // On ajoute les produits
+        // adding products
         var products = new List<Product>
     {
         new Product

@@ -21,7 +21,7 @@ namespace Poe_part_2_Prog7311.Models
 
         [Required]
         public string? IDNumber { get; set; }
-
+        
         [Required]
         public string? Address { get; set; }
         public IFormFile? PassportPhoto { get; set; }

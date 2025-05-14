@@ -17,7 +17,7 @@ namespace Poe_part_2_Prog7311.Models
 
         public string? ImagePath { get; set; }
 
-        // 🔽 Foreign Key vers AppUser
+        //  Foreign Key vers AppUser
         
         public string? FarmerId { get; set; }
 

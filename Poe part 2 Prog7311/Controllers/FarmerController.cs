@@ -13,10 +13,12 @@ namespace Poe_part_2_Prog7311.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<AppUser> _userManager;
-        public FarmerController(ApplicationDbContext context, UserManager<AppUser> userManager)
+        private readonly IWebHostEnvironment _env;
+        public FarmerController(ApplicationDbContext context, UserManager<AppUser> userManager, IWebHostEnvironment env)
         {
             _context = context;
             _userManager = userManager;
+            _env = env;
         }
 
         public IActionResult FarmerHome()
@@ -39,7 +41,6 @@ namespace Poe_part_2_Prog7311.Controllers
                 foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
                 {
                     Console.WriteLine("MODEL ERROR: " + error.ErrorMessage);
-
                 }
                 return View(product);
             }
@@ -55,10 +56,15 @@ namespace Poe_part_2_Prog7311.Controllers
 
             if (imageFile != null && imageFile.Length > 0)
             {
-                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
-                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", fileName);
+                string uploadsFolder = Path.Combine(_env.WebRootPath, "img");
 
-                using (var stream = new FileStream(path, FileMode.Create))
+                
+                Directory.CreateDirectory(uploadsFolder);
+
+                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
+                string filePath = Path.Combine(uploadsFolder, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
                 {
                     await imageFile.CopyToAsync(stream);
                 }
@@ -67,7 +73,8 @@ namespace Poe_part_2_Prog7311.Controllers
             }
 
             _context.Products.Add(product);
-            Console.WriteLine("Farmer ID: " + product.FarmerId);  // ← Affiche dans la console
+            Console.WriteLine("Farmer ID: " + product.FarmerId); // debug
+
             await _context.SaveChangesAsync();
 
             return RedirectToAction("MyProducts");
@@ -97,7 +104,6 @@ namespace Poe_part_2_Prog7311.Controllers
             if (existing == null)
                 return NotFound();
 
-
             if (ModelState.IsValid)
             {
                 existing.Name = product.Name;
@@ -106,10 +112,13 @@ namespace Poe_part_2_Prog7311.Controllers
 
                 if (imageFile != null && imageFile.Length > 0)
                 {
-                    var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", fileName);
+                    var uploadsFolder = Path.Combine(_env.WebRootPath, "img");
+                    Directory.CreateDirectory(uploadsFolder); 
 
-                    using (var stream = new FileStream(path, FileMode.Create))
+                    var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
+                    var filePath = Path.Combine(uploadsFolder, fileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
                     {
                         await imageFile.CopyToAsync(stream);
                     }
@@ -149,5 +158,6 @@ namespace Poe_part_2_Prog7311.Controllers
 
             return RedirectToAction("MyProducts");
         }
+
     }
 }

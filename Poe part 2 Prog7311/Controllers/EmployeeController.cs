@@ -14,11 +14,12 @@ namespace Poe_part_2_Prog7311.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<AppUser> _userManager;
-
-        public EmployeeController(ApplicationDbContext context, UserManager<AppUser> userManager)
+        private readonly IWebHostEnvironment _env;
+        public EmployeeController(ApplicationDbContext context, UserManager<AppUser> userManager, IWebHostEnvironment env)
         {
             _context = context;
             _userManager = userManager;
+            _env = env;
         }
 
         [HttpGet]
@@ -138,45 +139,58 @@ namespace Poe_part_2_Prog7311.Controllers
 
         // POST: Handle form submission
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddFarmer(FarmerRegistrationViewModel model, IFormFile PassportPhoto)
         {
             if (!ModelState.IsValid)
-                return View(model);
-
-            var user = new AppUser
             {
-                UserName = model.Email,
-                Email = model.Email,
-                FullName = model.FullName,
-                PhoneNumber = model.PhoneNumber,
-                IDNumber = model.IDNumber,
-                Address = model.Address
-            };
+                return View(model);
+            }
 
-            // ⬇️ Enregistrer la photo si fournie
+            // picture management
+            string photoPath = null;
+
             if (PassportPhoto != null && PassportPhoto.Length > 0)
             {
-                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(PassportPhoto.FileName);
-                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", fileName);
+                string uploadsFolder = Path.Combine(_env.WebRootPath, "img");
 
-                using (var stream = new FileStream(path, FileMode.Create))
+                
+                Directory.CreateDirectory(uploadsFolder);
+
+                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(PassportPhoto.FileName);
+                string filePath = Path.Combine(uploadsFolder, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
                 {
                     await PassportPhoto.CopyToAsync(stream);
                 }
 
-                user.PassportPhotoPath = "/img/" + fileName;
+                photoPath = "/img/" + fileName;
             }
 
-            var result = await _userManager.CreateAsync(user, model.Password);
+            var farmer = new AppUser
+            {
+                UserName = model.Email,
+                Email = model.Email,
+                FullName = model.FullName,
+                IDNumber = model.IDNumber,
+                Address = model.Address,
+                PhoneNumber = model.PhoneNumber,
+                PassportPhotoPath = photoPath
+            };
+
+            var result = await _userManager.CreateAsync(farmer, model.Password);
+
             if (result.Succeeded)
             {
-                await _userManager.AddToRoleAsync(user, "Farmer");
-                return RedirectToAction("Farmer");
+                await _userManager.AddToRoleAsync(farmer, "Farmer");
+                return RedirectToAction("Farmer"); 
             }
 
+            
             foreach (var error in result.Errors)
+            {
                 ModelState.AddModelError("", error.Description);
+            }
 
             return View(model);
         }

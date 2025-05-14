@@ -16,11 +16,11 @@ builder.Services.AddIdentity<AppUser, IdentityRole>()
 // Configurer les chemins de redirection
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.LoginPath = "/Login/Login";                 // si non connecté
-    options.AccessDeniedPath = "/Login/AccessDenied";   // si connecté mais pas autorisé
+    options.LoginPath = "/Login/Login";                
+    options.AccessDeniedPath = "/Login/AccessDenied";   
 });
 
-// Connecter à la base de données SQL Server
+// Connect to the sql database
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -31,14 +31,14 @@ using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
 
-    // Étape 1 : Seed des rôles et des utilisateurs
+    // step 1 seed roles and users
     await DbInitializer.SeedRolesAndUsersAsync(services);
 
-    // Étape 2 : Seed des produits pour le fermier déjà créé
+    // step 2 : Seed product database
     await DbInitializer.SeedProductsAsync(services);
 }
 
-// Configure le pipeline HTTP
+// Configure http pipeline
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
