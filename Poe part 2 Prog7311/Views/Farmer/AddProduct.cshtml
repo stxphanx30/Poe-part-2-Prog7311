@@ -1,6 +1,7 @@
 ﻿@model Poe_part_2_Prog7311.Models.Product
 @{
-    Layout = null;
+    ViewData["Title"] = "Add Product";
+
 }
 <!DOCTYPE html>
 <html>
@@ -126,10 +127,10 @@
             </select>
 
             <label for="ProductionDate">Production Date</label>
-            <input asp-for="ProductionDate" type="date" />
+            <input asp-for="ProductionDate" type="date" required />
 
             <label for="imageFile">Product Image</label>
-            <input type="file" name="imageFile" />
+            <input type="file" name="imageFile" required />
 
             <button type="submit">Add Product</button>
             <a asp-controller="Farmer" asp-action="MyProducts" class="cancel-button">Cancel</a>
@@ -138,7 +139,7 @@
     @if (!ViewData.ModelState.IsValid)
     {
         <div style="color: red; background-color: white; padding: 10px; border-radius: 5px; margin-bottom: 10px;">
-            There was a problem saving the product. Please check all fields.
+            please fill ou all the field.
         </div>
     
     }

@@ -1,7 +1,8 @@
 ﻿@model Poe_part_2_Prog7311.Models.Product
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Edit Product";
+
 }
 
 <head>
@@ -122,13 +123,13 @@
             </select>
 
             <label for="ProductionDate">Production Date</label>
-            <input asp-for="ProductionDate" type="date" />
+            <input asp-for="ProductionDate" type="date" required />
 
             <label>Current Image</label>
             <img src="@Model.ImagePath" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;" />
 
-            <label>New Image (optional)</label>
-            <input type="file" name="imageFile" />
+            <label>New Image </label>
+            <input type="file" name="imageFile" required />
 
             <button type="submit">Update</button>
             <a asp-controller="Farmer" asp-action="MyProducts" class="cancel-button">Cancel</a>
@@ -137,7 +138,7 @@
     @if (!ViewData.ModelState.IsValid)
     {
         <div style="color: red; background-color: white; padding: 10px; border-radius: 5px; margin-bottom: 10px;">
-            There was a problem saving the product. Please check all fields.
+            Please fill all the field all fields.
         </div>
 
     }

@@ -36,7 +36,7 @@ namespace Poe_part_2_Prog7311.Controllers
             }
 
             ViewBag.Error = "Invalid credentials.";
-            return View();
+            return RedirectToAction("LoginFailed", "Login"); ;
         }
 
         public async Task<IActionResult> Logout()
@@ -46,6 +46,10 @@ namespace Poe_part_2_Prog7311.Controllers
         }
         [HttpGet]
         public IActionResult AccessDenied()
+        {
+            return View();
+        }
+        public IActionResult    LoginFailed()
         {
             return View();
         }

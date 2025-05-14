@@ -63,10 +63,10 @@ namespace Poe_part_2_Prog7311.Controllers
             if (passportPhoto != null && passportPhoto.Length > 0)
             {
                 var fileName = Guid.NewGuid().ToString() + Path.GetExtension(passportPhoto.FileName);
-                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", fileName);
                 using var stream = new FileStream(path, FileMode.Create);
                 await passportPhoto.CopyToAsync(stream);
-                farmer.PassportPhotoPath = "/images/" + fileName;
+                farmer.PassportPhotoPath = "/img/" + fileName;
             }
 
             var result = await _userManager.UpdateAsync(farmer);
@@ -172,7 +172,7 @@ namespace Poe_part_2_Prog7311.Controllers
             if (result.Succeeded)
             {
                 await _userManager.AddToRoleAsync(user, "Farmer");
-                return RedirectToAction("EmployeeHome");
+                return RedirectToAction("Farmer");
             }
 
             foreach (var error in result.Errors)

@@ -1,14 +1,13 @@
 ﻿@model Poe_part_2_Prog7311.Models.FarmerRegistrationViewModel
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Edit Farmers";
+
 }
 
-<!DOCTYPE html>
-<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Edit Farmer</title>
+  
     <link rel="stylesheet" href="~/css/bootstrap.min.css" />
     <style>
         body {
@@ -105,7 +104,7 @@
     <div class="form-container">
         <h2>Edit Farmer</h2>
 
-        <form asp-controller="Employee" asp-action="Farmer" method="post" enctype="multipart/form-data">
+        <form asp-controller="Employee" asp-action="EditFarmer" method="post" enctype="multipart/form-data">
             <input type="hidden" asp-for="Id" />
 
             <label>Full Name</label>
@@ -131,4 +130,4 @@
         </form>
     </div>
 </body>
-</html>
+

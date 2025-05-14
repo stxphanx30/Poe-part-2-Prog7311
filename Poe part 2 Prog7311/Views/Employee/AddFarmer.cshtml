@@ -1,14 +1,13 @@
 ﻿@model Poe_part_2_Prog7311.Models.FarmerRegistrationViewModel
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Add Farmers";
+
 }
 
-<!DOCTYPE html>
-<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Add Farmer</title>
+    
     <link rel="stylesheet" href="~/css/bootstrap.min.css" />
     <style>
          body { background-image: url('https://images.unsplash.com/photo-1671308819531-1097d5ab5dcc?w=1600&auto=format&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100vh; margin: 0; padding: 0; display: flex; align-items: center; justify-content: center; position: relative; font-family: 'Segoe UI', sans-serif; }
@@ -82,6 +81,7 @@
                 text-decoration: none;
                 font-size: 20px;
             }
+
     </style>
 </head>
 <body>
@@ -113,11 +113,10 @@
             <input asp-for="Address" placeholder="Enter address" required />
 
             <label>Passport Photo</label>
-            <input type="file" name="PassportPhoto" class="form-control" accept="image/*" />
+            <input type="file" name="PassportPhoto" class="form-control" accept="image/*" required />
 
             <button type="submit">Add Farmer</button>
             <a asp-action="Farmer" class="cancel-button">Cancel</a>
         </form>
     </div>
 </body>
-</html>

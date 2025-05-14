@@ -12,8 +12,8 @@ using Poe_part_2_Prog7311.Data;
 namespace Poe_part_2_Prog7311.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250514014132_AddPassportPhotoToAppUser")]
-    partial class AddPassportPhotoToAppUser
+    [Migration("20250514073806_databaseStructure")]
+    partial class databaseStructure
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

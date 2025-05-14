@@ -33,7 +33,7 @@ public static class DbInitializer
                 Address = "123 Greenfield Farm, Cape Town",
                 PhoneNumber = "0761234567",
                 EmailConfirmed = true,
-                PassportPhotoPath = "/img/no-image.png"
+                PassportPhotoPath = "/img/DefaultUser.png"
             };
 
             var result = await userManager.CreateAsync(newUser, farmerPassword);
@@ -66,7 +66,7 @@ public static class DbInitializer
             }
             if (string.IsNullOrWhiteSpace(farmerUser.PassportPhotoPath))
             {
-                farmerUser.PassportPhotoPath = "/img/no-image.png";
+                farmerUser.PassportPhotoPath = "/img/DefaultUser.png";
                 updated = true;
             }
 
