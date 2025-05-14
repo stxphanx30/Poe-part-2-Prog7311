@@ -139,6 +139,19 @@ Here's our roadmap for Agri-Energy Connect, with an overview of completed tasks 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Images
+![image](https://github.com/user-attachments/assets/94bd48e2-4a3d-46df-9f59-a91d2b9b5d2c)
+![image](https://github.com/user-attachments/assets/90556144-f551-4032-bccc-27b46d0e3f16)
+![image](https://github.com/user-attachments/assets/d6005939-7600-4951-9dfe-ab7b1e6469b9)
+![image](https://github.com/user-attachments/assets/482d259a-73af-462d-adc8-20c7b7ff898d)
+![image](https://github.com/user-attachments/assets/e68da4f6-49aa-4b6d-9063-949be9a91fb6)
+![image](https://github.com/user-attachments/assets/4a854337-569f-4691-8104-7d9baa940a66)
+![image](https://github.com/user-attachments/assets/2771efbc-37c2-45b0-8c22-8317488cd493)
+
+
+
+
+
+
 
 
 
