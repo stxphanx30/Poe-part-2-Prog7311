@@ -72,12 +72,17 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
   ```bash
 git clone https://github.com/stxphanx30/Poe-part-2-Prog7311.git
 ```
+or use the zip file provided
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWI2NG8xMmxkZjc2eXowMjVlaWxqYjBqdTQyeW1zbGxpNXF5YWd1cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TlK63EA6F1qRb7lll6M/giphy.gif" width="400"/>
 
 4. **Dependencies:**
    - Open the project in Visual Studio.
    - Restore NuGet packages.
+     Make sure these packages are added:
+   - Microsoft.AspNetCore.Identity.EntityFrameworkCore
+   - Microsoft.EntityFrameworkCore.SqlServer
+   - Microsoft.EntityFrameworkCore.Tools
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWMwMmtwcmc4ZHg0N3gzaWR5dzVnenZxMXRtNWN6ZTkweDdwa21qeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHHxxFAeLaYzS/giphy.gif"  width="400"/>
 
@@ -88,8 +93,7 @@ git clone https://github.com/stxphanx30/Poe-part-2-Prog7311.git
 
 1. Navigate to the project root.
 2. Run dependency restore.
-3. Update `appsettings.json` with your DB string.
-4. Run database migrations.
+4. In the package manager console, run: Update-database.
 5. Build and run.
 
    
@@ -97,8 +101,12 @@ git clone https://github.com/stxphanx30/Poe-part-2-Prog7311.git
 ## Building and Running the Prototype
 
 1. Build in Visual Studio.
-2. Run the app or deploy to the server.
-
+2. Run the app
+3. Use these credentials to log in:
+   - as a farmer: Email:farmer1@agrienergy.com, Password: Farmer@123
+   - as an employee:Email: employee1@agrienergy.com, Password: Employee@123
+You can also find these credentials under Data/DbInitialiser.cs file
+-- there we go you can now see,add farmers and see product as an employee,and add,see product as a farmer-----
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## System Functionalities and User Roles
@@ -118,16 +126,14 @@ git clone https://github.com/stxphanx30/Poe-part-2-Prog7311.git
 Here's our roadmap for Agri-Energy Connect, with an overview of completed tasks and planned features.
 
 ### Completed
-- [x] none
-
-
+- [x] Database schema design and integration.
+- [x] User authentication system with role-based access control.
+- [x] Basic CRUD functionality for farmers and employees.
+- [x] Implementation of search and filtering functionality for products.
+- [x] Implementation of Green Energy Marketplace.
 ### In Progress
-- [ ] Database schema design and integration.
-- [ ] User authentication system with role-based access control.
-- [ ] Basic CRUD functionality for farmers and employees.
-- [ ] Implementation of search and filtering functionality for products.
-- [ ] Implementation of Green Energy Marketplace.
-        
+- [ ] none
+  
 ### Planned
 - [ ] Under Review.
 
@@ -184,12 +190,13 @@ To get started, go to [Installation and Setup](#installation-and-setup).
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Reference List
 
-- Bootswatch. *Minty* theme: https://bootswatch.com/minty/  
-- Dindi, S. (2023). *Hidden Search Bar Tutorial*: https://www.makeuseof.com/search-bar-html-css-javascript/  
-- GeeksForGeeks (2022). *Fade-In JavaScript*: https://www.geeksforgeeks.org/how-to-add-fade-in-effect-using-pure-javascript/  
-- StackOverflow (2017). *EmailJS Help*: https://stackoverflow.com/questions/58791656/send-email-directly-from-javascript-using-emailjs  
-- W3Schools (2024). *Fixed Sidebar*: https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp  
-- W3Schools (2024). *Date Input*: https://www.w3schools.com/TAGS/att_input_type_date.asp
+- Bootstrap, 2024. Introduction to Bootstrap 5.3. [online] Available at: https://getbootstrap.com/docs/5.3/getting-started/introduction/ [Accessed 14 May 2025].
+- GeeksforGeeks, 2023. Virtual LAN (VLAN). [online] Available at: https://www.geeksforgeeks.org/virtual-lan-vlan/ [Accessed 14 May 2025].
+- Microsoft, 2024. Entity Framework Core documentation. [online] Available at: https://learn.microsoft.com/en-us/ef/core/ [Accessed 14 May 2025].
+- Mozilla, 2024. CSS: Cascading Style Sheets. MDN Web Docs. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/CSS [Accessed 14 May 2025].
+- W3Schools, 2024. HTML Tutorial. [online] Available at: https://www.w3schools.com/html/ [Accessed 14 May 2025].
+- VMware, 2023. What is a Virtual Machine? [online] Available at: https://www.vmware.com/topics/virtual-machine [Accessed 14 May 2025].
+  
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <p align="center">
   <a href="#Agri-Energy-Connect" title="Back to top">
