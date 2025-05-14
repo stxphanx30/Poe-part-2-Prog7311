@@ -5,35 +5,40 @@ using Poe_part_2_Prog7311.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add services to the container
 builder.Services.AddControllersWithViews();
 
-// Add Identity (User + Role) with your custom AppUser
+// Add Identity with custom AppUser
 builder.Services.AddIdentity<AppUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
-// Configurer les chemins de redirection pour Login & Accès refusé
+// Configurer les chemins de redirection
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.LoginPath = "/Login/Login";             // si non connecté
-    options.AccessDeniedPath = "/Login/AccessDenied"; // si connecté mais rôle incorrect
+    options.LoginPath = "/Login/Login";                 // si non connecté
+    options.AccessDeniedPath = "/Login/AccessDenied";   // si connecté mais pas autorisé
 });
 
-// Connect to your SQL Server database
+// Connecter à la base de données SQL Server
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
-// Seed roles and default users (Farmer & Employee)
+// Seed Roles, Users & Products
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
+
+    // Étape 1 : Seed des rôles et des utilisateurs
     await DbInitializer.SeedRolesAndUsersAsync(services);
+
+    // Étape 2 : Seed des produits pour le fermier déjà créé
+    await DbInitializer.SeedProductsAsync(services);
 }
 
-// Configure the HTTP request pipeline.
+// Configure le pipeline HTTP
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");

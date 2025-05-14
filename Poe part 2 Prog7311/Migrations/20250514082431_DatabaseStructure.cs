@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Poe_part_2_Prog7311.Migrations
 {
     /// <inheritdoc />
-    public partial class databaseStructure : Migration
+    public partial class DatabaseStructure : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

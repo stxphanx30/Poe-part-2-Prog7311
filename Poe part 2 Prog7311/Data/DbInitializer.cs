@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Poe_part_2_Prog7311.Data;
 using Poe_part_2_Prog7311.Models;
 using System;
 
@@ -136,5 +137,56 @@ public static class DbInitializer
             if (!await userManager.IsInRoleAsync(employeeUser, "Employee"))
                 await userManager.AddToRoleAsync(employeeUser, "Employee");
         }
+    }
+    public static async Task SeedProductsAsync(IServiceProvider serviceProvider)
+    {
+        var context = serviceProvider.GetRequiredService<ApplicationDbContext>();
+        var userManager = serviceProvider.GetRequiredService<UserManager<AppUser>>();
+
+        await context.Database.EnsureCreatedAsync();
+
+        // Check si produits déjà ajoutés
+        if (context.Products.Any()) return;
+
+        // On récupère le fermier existant
+        var farmer = await userManager.FindByEmailAsync("farmer1@agrienergy.com");
+
+        if (farmer == null)
+        {
+            Console.WriteLine("Farmer not found. Cannot seed products.");
+            return;
+        }
+
+        // On ajoute les produits
+        var products = new List<Product>
+    {
+        new Product
+{
+    Name = "Fresh Apples",
+    Category = "Fruits",
+    ProductionDate = DateTime.Today.AddDays(-3),
+    ImagePath = "/img/apples.jpg",
+    FarmerId = farmer.Id
+},
+new Product
+{
+    Name = "Raw Cow Milk",
+    Category = "Dairy",
+    ProductionDate = DateTime.Today.AddDays(-1),
+    ImagePath = "/img/milk.jpg",
+    FarmerId = farmer.Id
+},
+new Product
+{
+    Name = "Free-range Chicken",
+    Category = "Livestock",
+    ProductionDate = DateTime.Today.AddDays(-7),
+    ImagePath = "/img/chicken.jpg",
+    FarmerId = farmer.Id
+}
+    };
+
+        context.Products.AddRange(products);
+        await context.SaveChangesAsync();
     }
 }
