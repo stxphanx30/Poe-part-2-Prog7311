@@ -70,7 +70,7 @@ Driven by the urgent demand for eco-friendly farming and the adoption of renewab
 
 2. **Clone the App:**
   ```bash
-git clone https://github.com/stxphanx30/Poe-part-2-Prog7311.git
+git clone https://github.com/stxphanx30/STEPHANE_KIBAMBO-_ST10158209_Poe_part_2_Prog7311.git
 ```
 or use the zip file provided
 
